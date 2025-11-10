@@ -1,0 +1,147 @@
+body {
+  @font-face {
+  font-family: 'Milton';
+  src: url('fonts/Milton.ttf') format('truetype');
+}
+;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.produto {
+  width: 30%;
+  text-align: center;
+}
+
+.produto img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.contato {
+  padding: 40px;
+  text-align: center;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+.grade-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.produto {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.produto:hover {
+  transform: scale(1.05);
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.produto h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.produto .preco {
+  font-weight: bold;
+  color: #e60000;
+}
+.social {
+  padding: 40px;
+  text-align: center;
+}
+
+.grade-social {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.foto-cliente {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.foto-cliente img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+}
